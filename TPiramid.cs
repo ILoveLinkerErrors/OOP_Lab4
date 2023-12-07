@@ -32,12 +32,12 @@ class TPiramid : TRTriangle {
     } 
     
     public new void Print() {
-        base.Print();
+        Print();
         Console.WriteLine($"Height = {Height}");
     }
 
     public new void Input() {
-        base.Input();
+        Input();
         double heightLen;
         while (true) {
             Console.Write("Height = ");
