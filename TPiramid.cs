@@ -1,4 +1,6 @@
 class TPiramid : TRTriangle {
+    // Створити клас-нащадок TPiramid (правильна трикутна піраміда) на основі класу TRTriangle.
+    // Додати метод знаходження об’єму піраміди та перевизначити відповідні методи.
     public double height;
 
     public double Height {

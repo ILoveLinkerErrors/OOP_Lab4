@@ -12,7 +12,7 @@ class TRTriangle {
     // довжин відповідних сторін), * (множення сторін на деяке число).
     private double side;    
 
-    public static readonly double EPSILON = 1e-8;
+    protected static readonly double EPSILON = 1e-8;
 
     public double Side {
         get {
