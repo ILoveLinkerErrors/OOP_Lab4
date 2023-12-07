@@ -14,10 +14,6 @@ class TPiramid : TRTriangle {
         }
     }
 
-    public double GetVolume() {
-        return GetArea() * Height / 3;
-    } 
-
     public TPiramid() : base() {
         Height = 1;
     }
@@ -29,6 +25,10 @@ class TPiramid : TRTriangle {
     public TPiramid(TPiramid copy) : this(copy.height, copy.Side) {
     }
 
+    public double GetVolume() {
+        return GetArea() * Height / 3;
+    } 
+    
     public new void Print() {
         base.Print();
         Console.WriteLine($"Height = {Height}");
@@ -74,6 +74,14 @@ class TPiramid : TRTriangle {
     public static TPiramid operator*(double scalar, TPiramid p) {
         return new TPiramid(p.height* scalar, p.Side * scalar);
 
+    }
+
+    public static bool operator == (TPiramid p1, TPiramid p2) {
+        return Math.Abs(p1.Side - p2.Side) < EPSILON && Math.Abs(p1.Height - p2.Height) < EPSILON ;
+    }
+
+    public static bool operator != (TPiramid p1, TPiramid p2) {
+        return !(p1 == p2);
     }
 }
 
