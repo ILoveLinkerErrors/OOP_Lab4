@@ -1,0 +1,15 @@
+/home/user/code/csharp/OOP_Labs/lab4/bin/Debug/net7.0/lab4
+/home/user/code/csharp/OOP_Labs/lab4/bin/Debug/net7.0/lab4.deps.json
+/home/user/code/csharp/OOP_Labs/lab4/bin/Debug/net7.0/lab4.runtimeconfig.json
+/home/user/code/csharp/OOP_Labs/lab4/bin/Debug/net7.0/lab4.dll
+/home/user/code/csharp/OOP_Labs/lab4/bin/Debug/net7.0/lab4.pdb
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.csproj.AssemblyReference.cache
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.AssemblyInfoInputs.cache
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.AssemblyInfo.cs
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.csproj.CoreCompileInputs.cache
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.dll
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/refint/lab4.dll
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.pdb
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/lab4.genruntimeconfig.cache
+/home/user/code/csharp/OOP_Labs/lab4/obj/Debug/net7.0/ref/lab4.dll
