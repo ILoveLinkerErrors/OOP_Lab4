@@ -28,9 +28,19 @@ class TPiramid : TRTriangle {
     }
 
     public double GetVolume() {
-        return GetArea() * Height / 3;
+        return base.GetArea() * Height / 3;
     } 
+
+    public new double GetArea() {
+        var m = Math.Sqrt(Math.Pow(Side * Math.Sqrt(3) / 6, 2) + Height * Height);
+        return base.GetArea() + 0.5 * base.GetPerimeter() * m;
+    }
     
+    public new double GetPerimeter() {
+        var edge = Math.Sqrt(Math.Pow(Side * Math.Sqrt(3) / 3, 2) + Height * Height);;
+        return base.GetPerimeter() + 3 * edge;
+    }
+
     public new void Print() {
         Print();
         Console.WriteLine($"Height = {Height}");
